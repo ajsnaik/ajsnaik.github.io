@@ -1,13 +1,13 @@
 ---
-title: "Paper Title Number 4"
+title: "Quantifying Sensitivity for Tree Ensembles : A symbolic and compositional approach"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
+permalink: #/publication/2024-02-17-paper-title-number-4
+excerpt: #'This paper is about fixing template issue #693.'
 date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+venue: 'International Conference on Computer Aided Verification (CAV),2026 <i>to appear</i>)'
+paperurl: #'http://academicpages.github.io/files/paper3.pdf'
+citation: 'Ajinkya Naik, S. Akshay, Ashutosh Gupta, Chaitanya Garg, Kuldeep Meel'
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
