@@ -32,13 +32,13 @@ Work experience
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% if post.selected_for_cv %}
-      {% include archive-single-cv.html %}
-    {% endif %}
-  {% endfor %}</ul>
+  {% assign post = site.publications | where: "relative_path", "_publications/2024-02-17-paper-title-number-4.md" | first %}
+  <ul>
+    {% include archive-single-cv.html %}
+  </ul>
   
-<!-- Talks
+{% comment %}
+Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
@@ -52,4 +52,5 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams -->
+* Currently signed in to 43 different slack teams
+{% endcomment %}
