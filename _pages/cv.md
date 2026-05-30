@@ -32,8 +32,14 @@ Work experience
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+  <!-- <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
+  {% endfor %}</ul> -->
+
+  <ul>{% for post in site.publications reversed %}
+    {% if post.selected_for_cv %}
+      {% include archive-single-cv.html %}
+    {% endif %}
   {% endfor %}</ul>
   
 <!-- Talks
